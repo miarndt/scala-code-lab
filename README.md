@@ -15,3 +15,5 @@ Die Beschreibung der Aufgabe findet ihr in der doc zu JRandom.
 Kleine Bitte: Um spätere Name-clashes zu vermeiden, bitte ich euch, Java-Klassen mit J beginnen zu lassen.
 
 __!! Wenn ihr pushen wollt, dann bitte auf einem eigenen branch (z.B. day1Prepare_MeinTollerName) !!__
+
+Als Testframework steht TestNG zur Verfügung.
