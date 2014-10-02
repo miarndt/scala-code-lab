@@ -12,6 +12,7 @@ scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8", "-featur
 
 libraryDependencies ++= {
     Seq(
-        "org.scalatest" %% "scalatest" % "2.2.1" % "test"
-	)
+        "org.scalatest" %% "scalatest" % "2.2.1" % "test",
+        "org.testng" % "testng" % "6.8.8" % "test"
+    )
 }

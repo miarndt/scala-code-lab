@@ -4,23 +4,23 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.Random;
 
-/**
- * Java Übung, um über einige Zahlen verschiedene Operationen auszuführen:
- *
- *
- Übung mit {@code N} Random()-Zahlen:
+/*
 
- Summiert über eine Liste von Zahlen
- Summiert die Quersumme
- Vergleicht die Anzahl der positiven mit denen der negativen
- Stellt die Verteilung von Zufallszahlen mit einer parametrisierbaren Genauigkeit (3 Intervalle; 1000 Intervalle) dar.
+Java Übung, um über einige Zahlen verschiedene Operationen auszuführen:
+
+Übung mit {@code N} Random()-Zahlen:
+
+Summiert über eine Liste von Zahlen
+Summiert die Quersumme
+Vergleicht die Anzahl der positiven mit denen der negativen
+Stellt die Verteilung von Zufallszahlen mit einer parametrisierbaren Genauigkeit (3 Intervalle; 1000 Intervalle) dar.
 
  -1 < -0.9: ***
  -0.9 < -0.8: *******
  -0.8 < -0.7: **
  …
 
- */
+*/
 public class JRandom {
 
     private long size;
@@ -42,9 +42,9 @@ public class JRandom {
     }
 
     /**
-     * Quersumme
+     * Summe der Quersumme
      */
-    public int sumOfDigits(Object arg) {
+    public int sumOfSumOfDigits(Object arg) {
         throw new NotImplementedException();
     }
 

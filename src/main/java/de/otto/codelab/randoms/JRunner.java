@@ -1,6 +1,6 @@
 package de.otto.codelab.randoms;
 
-public class Runner {
+public class JRunner {
 
     public static void main(String[] args) {
         new JRandom(Long.parseLong(args[0])).go();
